@@ -6,12 +6,12 @@
   ],
   "comments": [
     { "id": 1, "body": "Absolutely Great", "usersId": 1, "hotelId": 1},
-    { "id": 2, "body": "Nice Hotel", "usersId": 2, "hotelId": 1}
+    { "id": 2, "body": "Nice Hotel", "usersId": 2, "hotelId": 1},
     { "id": 3, "body": "Totally Epic", "usersId": 3, "hotelId": 1}
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
   "users":[
     {"id":1, "name": "Brian","email": "test@gmail.com","pin": 1234},
     {"id":2, "name": "Tom","email": "tom@gmail.com","pin": 1234},
