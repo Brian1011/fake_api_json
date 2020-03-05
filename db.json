@@ -5,10 +5,85 @@
     { "id": 3, "title": "Post 3" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "Absolutely Great", "usersId": 1, "hotelId": 1},
+    { "id": 2, "body": "Nice Hotel", "usersId": 2, "hotelId": 1}
+    { "id": 3, "body": "Totally Epic", "usersId": 3, "hotelId": 1}
   ],
   "profile": {
     "name": "typicode"
   }
+  "users":[
+    {"id":1, "name": "Brian","email": "test@gmail.com","pin": 1234},
+    {"id":2, "name": "Tom","email": "tom@gmail.com","pin": 1234},
+    {"id":3, "name": "Darbie","email": "darbie@gmail.com","pin": 1234}
+  ],
+  "hotels":[
+      {
+      "name": "InterContinental",
+      "star": "5",
+      "location": "Kiambu",
+      "info": "Refined rooms & suites in an upscale hotel with an outdoor pool, an Indian restaurant & a chic cafe.",
+      "pictures": [
+        "intercon_1.jpg",
+        "intercon2.jpg",
+        "intercon3.jpg"
+      ]
+    },
+    {
+      "name": "Sarova Stanley",
+      "star": "5",
+      "location": "Nairobi",
+      "info": "Elegant rooms in a plush property offering a spa, an outdoor pool & 3 restaurants, plus a bar.",
+      "pictures": [
+        "sarova_1.jpg",
+        "sarova_2.jpg",
+        "sarova_3.jpg"
+      ]
+    },
+    {
+      "name": "Villa Rosa Kempinski",
+      "star": "5",
+      "location": "Chiromo Rd, Nairobi",
+      "info": "Refined, warm rooms & suites in a polished hotel offering a spa, a cigar lounge & dining options.",
+      "pictures": [
+        "villa_1.jpg",
+        "villa_2.jpg",
+        "villa_3.jpg"
+      ]
+    },
+    {
+      "name": "Azure Hotel",
+      "star": "5",
+      "location": "Westlands",
+      "info": "Refined casino hotel with formal rooms & suites, plus a casino, a restaurant & a colorful bar.",
+      "pictures": [
+        "azure_1.jpg",
+        "azure_2.jpg",
+        "azure_3.jpg"
+      ]
+    },   
+    {
+      "name": "Best Western Plus Meridian Hotel",
+      "star": "3",
+      "location": "Moi Avenue, Nairobi",
+      "info": "Streamlined rooms & studios in a relaxed hotel with a restaurant, a sports bar & a rooftop pool.",
+      "pictures": [
+        "meridian_1.jpg",
+        "meridian_2.jpg",
+        "meridian_3.jpg"
+      ]
+    },
+    {
+      "name": "Osim Country Lodge",
+      "star": "3",
+      "location": "Narok",
+      "info": "Streamlined rooms & studios in a relaxed hotel with a restaurant, a sports bar & a rooftop pool.",
+      "pictures": [
+        "osim_1.jpg",
+        "osim_2.jpg",
+        "osim_3.jpg"
+      ]
+    }
+  ]
 }
+
